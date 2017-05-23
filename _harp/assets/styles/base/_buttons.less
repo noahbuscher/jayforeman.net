@@ -1,0 +1,23 @@
+.btn {
+  border: 2px solid @white;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: @white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-red {
+  background: transparent;
+  color: @dark-red;
+  border-color: @dark-red;
+  transition: all @base-transition-time;
+
+  &:hover {
+    background: @dark-red;
+    color: @white;
+    transition: all @base-transition-time;
+  }
+}

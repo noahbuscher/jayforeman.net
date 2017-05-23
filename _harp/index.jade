@@ -1,0 +1,53 @@
+section.hero
+  div.grid
+    div.grid-col.text-centered.hero-title
+      h1 Iron Will
+      h2
+        i by award-winning NFL veteran
+      h3 Jay Foreman
+    div.grid-col-sm.text-centered
+      img.profile-shot(src="./assets/images/jay.png")
+
+
+section.content
+  div.grid
+    div.grid-col.text-centered
+      img.book-preview(src="./assets/images/book-front.png")
+    div.grid-col
+      h2 Sheer Determination
+      p
+        | In his memoir, Iron Will, Jay Foreman shares his unique experiences as
+        | a child of a famous athlete, his experiences as a rising star in both
+        | college football and the NFL and shares how anyone from any background
+        | can experience adversity and ultimately overcome it. Iron Will reveals
+        | how success in the limelight sent Jay’s life into a tailspin and
+        | dramatically changed the people around him.  Now, looking for and
+        | attaining closure after a long football life, Foreman offers a
+        | cautionary tale for athletes and families who may get swallowed up
+        | into the fast professional life. He hopes his own failures and life
+        | lessons can be used to help impact people in a positive way and
+        | ultimately lead them to success.
+      div.actions
+        form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+          input(type="hidden" name="cmd" value="_s-xclick")
+          input(type="hidden" name="hosted_button_id" value="DULQJ8CFM4DMU")
+          input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
+          img(alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+              width="1" height="1")
+
+footer
+  div.grid
+    div.grid-col
+      ul.links
+        li.link
+          a(href="/") Home
+        li.link
+          a(href="mailto:contact@jayforeman.net") Contact
+    div.grid-col
+      h2.text-red About
+      p.text-red
+        | Jay Foreman is an award-winning NFL veteran
+        | who wrote this book to share his story...
+    div.grid-col
+      p.text-red &copy; Jay Foreman 2017
