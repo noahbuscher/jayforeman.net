@@ -1,0 +1,48 @@
+section.header
+  div.grid.nav-holder.nav-holder-tall
+    div.nav
+      div.nav-left
+        a.logo(href="/") Jay Foreman
+      div.nav-right
+        ul.nav-links
+          li.nav-link
+            a(href="/") Home
+          li.nav-link
+            a(href="/book") Book
+          li.nav-link
+            a(href="/philanthropy") Philanthropy
+          li.nav-link
+            a(href="/about") About
+          li.nav-link
+            a(href="mailto:contact@jayforeman.net") Contact
+  div
+    h1 Philanthropy
+
+section.content
+  div.grid
+    div.grid-col
+      p.thick
+        | In 2013, Jay Foreman founded The Foreman Foundation, a 501c3
+        | non-profit organization, which strives to enhance the lives of people
+        | living with diabetes. The Foreman Foundation gives both youth and adults
+        | an opportunity to access top notch education and resources to help their
+        | fight against diabetes. With many family and friends affected by diabetes,
+        | Mr. Foreman and the Foreman Foundation are committed to helping find a
+        | cure for diabetes.
+      p.thick  
+        | The Foreman Foundation will host charity events, football camps and an
+        | annual gala. Our focus is on raising funds in efforts to fight diabetes
+        | as well as bringing awareness to communities in regards to this terrible
+        | disease. We believe, with the proper education and research, a cure
+        | for diabetes can be found.
+      p.thick
+        h2 Donate Now
+      div.actions
+        form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+          input(type="hidden" name="cmd" value="_s-xclick")
+          input(type="hidden" name="hosted_button_id" value="DULQJ8CFM4DMU")
+          input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit"
+                alt="PayPal - The safer, easier way to pay online!")
+          img(alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
+
+!= partial("partials/footer")
