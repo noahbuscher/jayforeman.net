@@ -77,7 +77,7 @@
 }
 
 footer {
-  margin: 100px;
+  margin: 50px 100px 100px 100px;
   border-top: 1px solid @dark-red;
   padding-top: 40px;
 
@@ -111,6 +111,10 @@ ul.links {
     display: flex;
     width: 100%;
 
+    @media only screen and (max-width: 750px) {
+      flex-direction: column;
+    }
+
     .nav-left {
       flex: 1;
 
@@ -124,8 +128,14 @@ ul.links {
     }
 
     .nav-right {
-      flex: 1;
+      flex: 3;
       text-align: right;
+
+      @media only screen and (max-width: 750px) {
+        text-align: left;
+        margin-left: -20px;
+        margin-top: 20px;
+      }
 
       .nav-links {
         list-style: none;
