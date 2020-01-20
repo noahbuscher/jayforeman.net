@@ -20,23 +20,19 @@ section.header
           li.nav-link
             a(href="/contact") Contact
   div
-    h1 Contact
+    h1 Podcast
 
 section.content
   div.grid
     div.grid-col
-      p.thick
-        | Contact Jay for speaking, booking, press releases, and more...
-      p
-        <br/>
-        a.btn.btn-red(href="mailto:contact@jayforeman.net") Email
-      p
-        <br/>
-        strong Phone: (402) 499-5532
-      p
-        <br/>
-        | Want to work one-on-one with Jay to improve your skillset on the field?
-        | Visit the 
-        a(href="http://foremanfootball.com") Foreman Football Academy.
-
+      iframe(
+        title="The Poloma Podcast"
+        id="multi_iframe"
+        src="https://www.podbean.com/media/player/multi?playlist=http%3A%2F%2Fplaylist.podbean.com%2F4175510%2Fplaylist_multi.xml&vjs=1&kdsowie31j4k1jlf913=f926d590f6afdbdf2d9d22c9cae64adb18470134&size=430&skin=&episode_list_bg=%23ffffff&bg_left=%23000000&bg_mid=%230c5056&bg_right=%232a1844&podcast_title_color=%23c4c4c4&episode_title_color=%23ffffff&auto=0&download=1&show_playlist_recent_number=10&pbad=1"
+        frameborder="0"
+        scrolling="no"
+        width="100%"
+        height="432"
+        allowfullscreen=""
+      )
 != partial("partials/footer")
